@@ -1,0 +1,135 @@
+.qr{
+  margin: auto;
+}
+.img{
+  margin: auto;
+}
+li {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 26px;
+  padding: 10px;
+  background-color: white;
+  margin-top: 5px;
+}
+.men {
+  text-decoration: none;
+  color: #00BFFF;
+  font-weight: 1000;
+  font-size: 20px;
+}
+.div1 {
+  display: flex;
+  margin: auto;
+}
+.menu {
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+div.menu {
+  justify-content: center;
+}
+li:hover {
+  background-color: #1E90FF;
+}
+.men:hover {
+  color: aliceblue;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex-grow: 1;
+}
+.footer {
+  display: flex;
+  position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    background: #00BFFF; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+
+}
+.footer1 {
+  padding-top: 15px;
+}
+.footer3 {
+  margin-right: 200px;
+  padding-left: 600px;
+}
+
+.fa {
+  text-decoration: none;
+  color: blue;
+  margin-top: 5px;
+}
+.fa:hover {
+  color: red;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+
+}
+.new1 {
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 10px;
+  width: 20%;
+  border: 6px solid #00BFFF;
+  text-align: center;
+
+}
+.new2 {
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 10px;
+  width: 20%;
+  border: 6px solid #00BFFF;
+  text-align: center;
+}
+.new3 {
+  border-radius: 50px;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 10px;
+  width: 20%;
+  border: 6px solid #00BFFF;
+  text-align: center;
+}
+
+.stat{
+margin: auto;
+margin-top: 20px;
+}
+.stat1{
+  border-radius: 10px;
+  border: 5px solid #00BFFF;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 5px;
+  background-color: #B0E0E6;
+}
+.stat2{
+  border-radius: 10px;
+  border: 5px solid #00BFFF;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 5px;
+  background-color: #B0E0E6;
+}
+.stat3{
+  border-radius: 10px;
+  border: 5px solid #00BFFF;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 70px;
+  background-color: #B0E0E6;
+}
